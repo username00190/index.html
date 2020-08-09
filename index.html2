@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+    </head>
+    <style>
+    h1{text-align: center;}
+    h5{text- align:center;}
+    div{text-align: center;}
+    .myDiv{
+  background-color: lightblue;
+  text-align: center;
+    }
+    body {
+font-size: 100%;
+}
+
+h1 {
+font-size: 9.5em;
+}
+
+h5 {
+font-size: 1.175em;
+}
+
+p {
+font-size: 0.875em;
+}
+    </style>
+    <body>
+
+      <div class="mydiv">
+        <h1 style="color:blue">Google</h1>
+        <form action="https://google.com/search"method=get>
+            <input type="text" name="q">
+            <br><br><input type="submit" value=" Search">
+
+        </form>
+          <div class="mydiv">
+            <h5 >Google offered in: </h1>
+
+    </body>
+</html>
